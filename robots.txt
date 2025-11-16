@@ -1,0 +1,9 @@
+# robots.txt for 孙文网
+# 允许所有搜索引擎抓取
+
+User-agent: *
+Allow: /
+
+# Sitemap位置
+Sitemap: https://littlestar10.github.io/sunwen/sitemap.xml
+
