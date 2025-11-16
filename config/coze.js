@@ -34,7 +34,7 @@ const cozeWebSDK = new CozeWebSDK.WebChatClient({
   */
   userInfo: {
     id: 'user',
-    url: '/user.svg',
+    url: (window.__BASE_URL__ || '/') + 'user.svg',
     nickname: '孙文网访问者',
   },
   ui: {
@@ -46,7 +46,7 @@ const cozeWebSDK = new CozeWebSDK.WebChatClient({
     * @param base.zIndex - The z-index of the chat box.
     */
     base: {
-      icon: '/logo.png',
+      icon: (window.__BASE_URL__ || '/') + 'logo.png',
       lang: 'zh-CN',
       zIndex: 1000,
     },
